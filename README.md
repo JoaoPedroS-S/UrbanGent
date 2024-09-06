@@ -6,6 +6,7 @@
 - Pedro Felipe Rodrigues dos Santos
 - João Pedro da Silva Santos
 - Paulo Vitor de Souza
+- Leonardo Vieira de Souza
 
 ## 3. Objetivo do Projeto
 Criar um site que divulgue, compare e forneça informações detalhadas sobre cosméticos, com foco especial em perfumes. O site visa ajudar os usuários a encontrar os melhores produtos para suas necessidades, oferecendo análises, comparações e recomendações baseadas em dados confiáveis.
