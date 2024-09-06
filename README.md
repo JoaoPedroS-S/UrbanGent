@@ -25,7 +25,7 @@ Criar um site que divulgue, compare e forneça informações detalhadas sobre co
 
 ### 5.2. Seção de Perfumes
 - *Categorias:* Perfumes masculinos, femininos, unissex.
-- *Filtros:* Tipo de fragrância (floral, amadeirada, cítrica, etc.), faixa de preço, marca.
+- *Filtros:* Tipo de fragrância, faixa de preço, marca.
 - *Comparador de Perfumes:* Ferramenta interativa para comparar diferentes fragrâncias e notas.
 - *Resenhas e Avaliações:* Comentários de usuários e especialistas, notas de fragrância.
 
@@ -34,19 +34,15 @@ Criar um site que divulgue, compare e forneça informações detalhadas sobre co
 - *Filtros:* Tipo de produto, faixa de preço, marca, tipo de pele.
 - *Guias e Dicas:* Artigos educativos sobre uso e escolha de cosméticos.
 
-### 5.4. Blog/Notícias
-- Artigos sobre tendências, lançamentos e inovações no mercado de cosméticos e perfumes.
-- Entrevistas com especialistas e influenciadores.
-
-### 5.5. Página de Comparação
+### 5.4. Página de Comparação
 - Comparação detalhada entre diferentes produtos de cosméticos e perfumes com tabelas e gráficos.
 - Opiniões e recomendações personalizadas.
 
-### 5.6. Página Sobre Nós
+### 5.5. Página Sobre Nós
 - Informações sobre a equipe do site, missão e visão.
 - Contato e parcerias.
 
-### 5.7. Página de Contato
+### 5.6. Página de Contato
 - Formulário de contato.
 - Informações de redes sociais e suporte ao cliente.
 
@@ -55,15 +51,11 @@ Criar um site que divulgue, compare e forneça informações detalhadas sobre co
 - *Sistema de Avaliações e Comentários:* Permite aos usuários avaliar e comentar sobre produtos.
 - *Newsletter:* Inscrição para atualizações e ofertas exclusivas.
 
-## 7. Design e Usabilidade
-- *Interface Responsiva:* Design adaptável a diferentes dispositivos (desktop, tablet, smartphone).
-- *Design Atraente e Intuitivo:* Layout moderno, fácil navegação e busca.
-- *Acessibilidade:* Recursos para garantir que o site seja acessível para pessoas com deficiências.
 
-## 8. Tecnologia Utilizada
+## 7. Tecnologia Utilizada
 - *Linguagens:* HTML5, CSS3, JavaScript.
 
-## 9. Cronograma de Implementação
+## 8. Cronograma de Implementação
 - *Fase 1:* Pesquisa e Planejamento (1 mês)
 - *Fase 2:* Design e Desenvolvimento (2 meses)
 - *Fase 3:* Testes e Ajustes (3 mês)
