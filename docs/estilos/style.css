@@ -1,1 +1,53 @@
+@charset "UTF-8";
 
+:root {
+    --cor1: #FFA10E;
+    --cor2: #FFE3B7;
+    --cor3: #fff5e6;
+    --cor4: #131428;
+
+    --fonte-destaque: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+/* TOPO */
+header {
+    font-family: var(--fonte-destaque);
+    background-color: var(--cor2);
+}
+
+header > h1 {
+    color: var(--cor1);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 40px;
+}
+
+/* MENU */
+menu > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+
+}
+
+menu > ul > li > a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+
+menu > ul > li > a:hover {
+    color: var(--cor1);
+    border-radius: 3px;
+    transition: .4s;
+}
