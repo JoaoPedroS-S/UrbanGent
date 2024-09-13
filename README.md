@@ -17,14 +17,14 @@ Criar um site que divulgue perfumes. O site visa ajudar os usuários a encontrar
 
 ## 5. Estrutura do Site
 
-### 5.1. Página Inicial
+### Página Inicial
 - Destaque para perfumes populares.
 
-### 5.2. Seção de Perfumes
+### Seção de Perfumes
 - *Categorias:* Perfumes masculinos, femininos, unissex.
 - *Filtros:* Tipo de fragrância, faixa de preço, marca.
 
-### 5.3. Página Sobre Nós
+### Página Sobre Nós
 - Contato
 - Sobre nós
   
