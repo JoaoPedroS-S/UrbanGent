@@ -13,7 +13,7 @@ Criar um site que divulgue perfumes. O site visa ajudar os usuários a encontrar
 
 ## 4. Público-Alvo
 - Homens e mulheres interessados em perfumes.
-- Pessoas em busca de informações e comparações para tomar decisões informadas de compra.
+- Pessoas em busca de informações para tomar decisões informadas de compra.
 
 ## 5. Estrutura do Site
 
