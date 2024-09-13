@@ -1,0 +1,139 @@
+Página de Perfumes
+
+## Menu Principal
+
+- [SHOP](#shop)
+- [FEMININO](#feminino)
+- [MASCULINO](#masculino)
+- [UNISSEX](#unissex)
+- [KITS](#kits)
+- [PROMOÇÕES](#promocoes)
+- [LOGIN/REGISTRO](#loginregistro)
+- [CARRINHO](#carrinho)
+- [FAVORITOS](#favoritos)
+- [PROCURAR](#procurar)
+
+---
+
+## SHOP
+
+Bem-vindo à nossa loja de perfumes! Explore nossas categorias para encontrar o perfume perfeito para você.
+
+## FEMININO
+
+### Perfumes Femininos
+
+- *Perfume A*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+- *Perfume B*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+## MASCULINO
+
+### Perfumes Masculinos
+
+- *Perfume C*
+  - Descrição do produto
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+- *Perfume D*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+## UNISSEX
+
+### Perfumes Unissex
+
+- *Perfume E*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+- *Perfume F*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+## KITS
+
+### Kits de Perfumes
+
+- *Kit A*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+- *Kit B*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+## PROMOÇÕES
+
+### Ofertas e Promoções
+
+- *Oferta Especial 1*
+  - Descrição
+  - Preço com Desconto
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+- *Oferta Especial 2*
+  - Descrição
+  - Preço com Desconto
+  - [Adicionar ao Carrinho](#)
+  - [Adicionar aos Favoritos](#)
+
+## LOGIN/REGISTRO
+
+- [Entrar](#)
+- [Criar Conta](#)
+
+## CARRINHO
+
+Veja os itens que você adicionou ao seu carrinho e finalize sua compra.
+
+- *Perfume A*
+  - Quantidade
+  - Preço
+  - [Remover do Carrinho](#)
+  
+- *Perfume B*
+  - Quantidade
+  - Preço
+  - [Remover do Carrinho](#)
+
+- [Finalizar Compra](#)
+
+## FAVORITOS
+
+Aqui estão seus perfumes favoritos.
+
+- *Perfume C*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+  
+- *Perfume D*
+  - Descrição
+  - Preço
+  - [Adicionar ao Carrinho](#)
+
+## PROCURAR
+
+- *Buscar:* [Digite sua busca aqui](#)
