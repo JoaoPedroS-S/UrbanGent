@@ -1,38 +1,48 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
-    <link rel="stylesheet" href="estilos/style.css">
-    <link rel="shortcut icon" href="estilos/logo-urbangent2.jpeg" type="image/x-icon">
-    <title>UrbanGent</title>
+    <title>User Registration Form</title>
+    <link rel="stylesheet" href="estilos/styles.css">
+    <link rel="stylesheet" href="estilos/mediaqueries2.css">
 </head>
 <body>
-    <header>
-        <div class="banner-topo">
-            <!-- IMAGEM -->
-        </div>
-    </header>
-        <div class="container-menu">
-            <div class="logo">
-                <h1>URBAN GENT</h1>
+      <div class="form-container">
+                <h2>Registro</h2>
+                <form action="https://webhook.site/" method="post" autocomplete="on">
+                    <div class="form-group">
+                        <label for="username">Usuario:</label>
+                        <input type="text" id="username" name="username" required placeholder="nome do usuário">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" required placeholder="seu e-mail">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Senha: </label>
+                        <input type="password" id="password" name="password" required placeholder="sua senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="confirm-password">Confirmar Senha: </label>
+                        <input type="password" id="confirm-password" name="confirm-password" required placeholder="confirme sua senha">
+                    </div>
+                    <div class="form-group">
+                        <label for="dob">Data de Nascimento: </label>
+                        <input type="date" id="dob" name="dob" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Genero: </label>
+                        <select id="gender" name="gender" required>
+                            <option value="" disabled selected>Selecione seu genero</option>
+                            <option value="male">Masculino</option>
+                            <option value="female">Feminino</option>
+                            <option value="other">Outro</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="submit-btn">Registro</button>
+                    <a href="formulario.html">Proxima página 🢥 </a>
+                </form>
             </div>
-            <menu>
-                <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Sobre</a></li>
-                    <li><a href="#">Catálogo</a></li>
-                    <li><a href="#">Contato</a></li>
-                    <li id="end"><a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a></li>
-                    <li id="end"><a href="#"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a></li>
-                    <li id="end"><a href="#"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a></li>
-                </ul>
-            </menu>
-    <main>
-        <section>
-
-        </section>
-    </main>
 </body>
 </html>
