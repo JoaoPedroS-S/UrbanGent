@@ -1,9 +1,0 @@
-@charset "UTF-8";
-
-@media screen and (min-width: 770px) {
-    div.form-container {
-        margin-bottom: 20px;
-        width: 750px;
-        height: 650px;
-    }
-}
