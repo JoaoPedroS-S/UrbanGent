@@ -1,0 +1,81 @@
+/* Estilo global */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+header {
+    background-image: linear-gradient(to right, #0D1518, #131428);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 24px;
+    color: #d4af37; /* Dourado */
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a span:hover {
+    color: #d4af37; /* Dourado */
+}
+
+/* Grid de Produtos */
+.products-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.product-card {
+    border: 1px solid #000;
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    color: #d4af37; /* Dourado */
+}
+
+.product-card p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.product-card button:hover {
+    background-color: #d4af37; /* Dourado */
+}

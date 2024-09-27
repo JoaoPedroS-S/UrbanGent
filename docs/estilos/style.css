@@ -9,11 +9,6 @@
     color: white;
 }
 
-html, body {
-    width: 100vw;
-    height: 100vh;
-}
-
 /* TOPO */
 header {
     padding: 10px;
@@ -21,7 +16,7 @@ header {
     background-image: linear-gradient(to right, #0D1518, #131428);
 }
 
-div.container-header {
+div.logo {
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -30,7 +25,7 @@ div.container-header {
 /* NAVEGAÇÃO */
 div.nav-list > ul {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     list-style: none;
     gap: 30px;
 }
@@ -50,49 +45,37 @@ div.nav-bar > ul {
 /* IMAGEM CENTRO SAUVAGE */
 div.principal {
     height: 730px;
-    background-image: url(../imagens/banner-2-sauvage-eau-forte.jpg);
+    background-image: url(../imagens/banner-sauvage.jpg);
     background-position: center;
     background-size: cover;
+    margin-bottom: 5px;
 }
 
 /* CAIXAS OPÇOES - FEMININO E MASCULINO  */
-article.opcoes {
-    display: flex;
-    flex-direction: row;
-    border: 3px solid red;
-    width: 70vw;
-    height: 585px;
+ section.flex {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    margin: 0 auto;
+    max-width: 1200px;
+ }
+    
+section .card img {
+    margin: 0 auto;
+    margin-bottom: 17px;
+    max-width: 100%;
+    display: block;
+}
+
+section .card img:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+section.banner {
     margin: auto;
-    margin-top: 50px;
+    max-width: 1185px;
 }
 
-div.ofertas {
-    background: url(../imagens/OFERTAS-EXCLUSIVAS.png) center center no-repeat;
-    background-size: cover;
-    height: 581px;
-    width: 581px;
+section.banner > img {
+    max-width: 100%;
 }
-
-div.ofertas > h1 {
-    text-align: center;
-    padding-top: 50px;
-    font-size: 50px;
-}
-
-div.feminino {
-    background: url(../imagens/FEMININO-.png) center center no-repeat;
-    background-size: cover;
-    align-self: flex-start;
-    height: 282px;
-    width: 582px;
-    margin-left: 20px;
-}
-
-div.feminino > h1 {
-    text-align: right;
-    padding: 50px;
-    font-size: 50px;
-}
-
-
-
