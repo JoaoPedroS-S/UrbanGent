@@ -71,6 +71,31 @@ section .card img:hover {
     transition: .5s;
 }
 
+/* H1 DENTRO DAS IMAGEMS */
+section .card h1 {
+    z-index: 1;
+    font-size: 2.3rem;
+}
+
+h1.ofertas {
+    position: relative;
+    top: 15%;
+    left: 30%;
+}
+
+h1.feminino {
+    position: relative;
+    top: 23%;
+    left: 55%;
+}
+
+h1.masculino {
+    position: relative;
+    bottom: 25%;
+    left: 55%;
+}
+
+/* BANNER VICTORIA SECRET */
 section.banner {
     margin: auto;
     max-width: 1185px;
