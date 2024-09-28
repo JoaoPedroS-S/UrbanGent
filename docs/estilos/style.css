@@ -42,13 +42,9 @@ div.nav-bar > ul {
     gap: 10px;
 }
 
-/* IMAGEM CENTRO SAUVAGE */
-div.principal {
-    height: 730px;
-    background-image: url(../imagens/banner-sauvage.jpg);
-    background-position: center;
-    background-size: cover;
-    margin-bottom: 5px;
+div.principal img {
+    max-width: 100%;
+    height: auto;
 }
 
 /* CAIXAS OPÇOES - FEMININO E MASCULINO  */
@@ -62,13 +58,15 @@ div.principal {
 section .card img {
     margin: 0 auto;
     margin-bottom: 17px;
-    max-width: 100%;
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 section .card img:hover {
-    transform: translateY(-10px);
+    transform: translateY(-7px);
     transition: .5s;
+    transform-origin: center;
 }
 
 /* H1 DENTRO DAS IMAGEMS */
@@ -77,23 +75,6 @@ section .card h1 {
     font-size: 2.3rem;
 }
 
-h1.ofertas {
-    position: relative;
-    top: 15%;
-    left: 30%;
-}
-
-h1.feminino {
-    position: relative;
-    top: 23%;
-    left: 55%;
-}
-
-h1.masculino {
-    position: relative;
-    bottom: 25%;
-    left: 55%;
-}
 
 /* BANNER VICTORIA SECRET */
 section.banner {
