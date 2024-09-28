@@ -5,7 +5,9 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-size: 1.1rem;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
@@ -22,9 +24,10 @@ div.logo {
     align-items: center;
 }
 
-/* NAVEGAÇÃO */
+/* MENU */
 div.nav-list > ul {
     display: flex;
+    flex-flow: row wrap;
     justify-content: space-around;
     list-style: none;
     gap: 30px;
@@ -32,25 +35,31 @@ div.nav-list > ul {
 
 div.nav-list > ul > li > a {
     text-decoration: none;
-    font-size: 20px;
 }
 
+div.nav-list a:hover {
+    text-decoration: underline;
+}
+
+/* ICONES LOGIN - BUSCAR - FAVORITOS - CARRINHO */
 div.nav-bar > ul {
     display: flex;
+    flex-flow: row wrap;
     justify-content: center;
     list-style: none;
     gap: 10px;
 }
 
+/* IMG SAUVAGE */
 div.principal img {
     max-width: 100%;
     height: auto;
 }
 
-/* CAIXAS OPÇOES - FEMININO E MASCULINO  */
+/* CARDS OPÇOES - FEMININO E MASCULINO  */
  section.flex {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 2fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 2fr));
     margin: 0 auto;
     max-width: 1200px;
  }
@@ -69,7 +78,7 @@ section .card img:hover {
     transform-origin: center;
 }
 
-/* H1 DENTRO DAS IMAGEMS */
+/* H1 DENTRO DAS IMAGENS */
 section .card h1 {
     z-index: 1;
     font-size: 2.3rem;
@@ -82,6 +91,60 @@ section.banner {
     max-width: 1185px;
 }
 
+section.banner h1, p {
+    color: black;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+}
+
 section.banner > img {
     max-width: 100%;
+    margin-bottom: 30px;
+}
+
+/* OPÇOES DE PRODUTOS */
+section.produtos {
+    margin: 0 auto;
+    max-width: 1310px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 5fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.card-opcoes {
+    padding: 20px;
+    text-align: center;
+}
+
+.card-opcoes img {
+    width: 100%;
+    height: auto;
+}
+
+.card-opcoes h2, p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: lighter;
+}
+
+.card-opcoes p {
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.card-opcoes button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.card-opcoes button:hover {
+    background-color: #d4af37; /* Dourado */
 }

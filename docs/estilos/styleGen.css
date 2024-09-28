@@ -74,6 +74,7 @@ header nav ul li a span:hover {
     padding: 10px 20px;
     border: none;
     cursor: pointer;
+    border-radius: 10px;
 }
 
 .product-card button:hover {
