@@ -3,6 +3,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fff;
     color: #000;
+    font-size: 1.1rem;
     margin: 0;
     padding: 0;
 }
@@ -15,11 +16,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-header .logo h1 {
-    font-size: 24px;
-    color: #d4af37; /* Dourado */
 }
 
 header nav ul {
@@ -60,11 +56,11 @@ header nav ul li a span:hover {
 
 .product-card h2 {
     font-size: 20px;
-    color: #d4af37; /* Dourado */
+    font-weight: lighter;
 }
 
 .product-card p {
-    font-size: 18px;
+    font-weight: bolder;
     margin: 10px 0;
 }
 

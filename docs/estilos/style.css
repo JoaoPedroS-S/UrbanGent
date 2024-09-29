@@ -45,6 +45,113 @@ div.logo {
     text-decoration: underline;
 }
 
+/* MENU HAMBURGER */
+.hamburger{
+    border: none;
+    cursor: pointer;
+    display: none;
+    background: none;
+    border-top: 3px solid #fff;
+}
+
+.hamburger::before,
+.hamburger::after{
+    content: ' ';
+    display: block;
+    width: 30px;
+    height: 4px;
+    background-color: #fff;
+    margin-top: 5px;
+    position: relative;
+    transition: 0.3s;
+}
+
+@media (max-width:768px) {
+    .hamburger{
+        z-index: 1;
+        display: block;
+    }
+    .nav-list{
+        position: absolute;
+        top: 0;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        padding: 80px 20px;
+        background-color: #032263;
+        clip-path: circle(100px at 90% -15%);
+        transition: 1s ease-out;
+
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        gap: 0;
+        pointer-events: none;
+        list-style: none;
+    }
+    
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+    }
+
+    nav{
+        display: none;
+    }
+
+    .nav-list a{
+        color: #FFFFFF;
+        font-size: 20px;
+        opacity: 0;
+    }
+
+    .nav-list li:nth-child(1) a{
+        transition: 0.5s 0.2s;
+    }
+
+    .nav-list li:nth-child(2) a{
+        transition: 0.5s 0.4s;
+    }
+
+    .nav-list li:nth-child(3) a{
+        transition: 0.5s 0.6s;
+    }
+
+    .nav-list li:nth-child(4) a{
+        transition: 0.5s 0.8s;
+    }
+
+    /* Estilos ativos */
+    .nav.active .nav-list{
+        clip-path: circle(1500px at 90% -15%);
+        pointer-events: all;
+        
+    }
+
+    .nav.active .nav-list a{
+        opacity: 1;
+    }
+    
+    .nav.active .hamburger{
+        position: fixed;
+        top: 22px;
+        left: 20px;
+        border-top-color: transparent;
+
+    }
+
+    .nav.active .hamburger::before{
+        transform: rotate(45deg);
+        background-color: #FFFFFF;
+    }
+
+    .nav.active .hamburger::after{
+        transform: rotate(-45deg);
+        background-color: #FFFFFF;
+        top: -10px;
+    }
+}
+
 /* ICONES LOGIN - BUSCAR - FAVORITOS - CARRINHO */
 div.nav-bar > ul {
     display: flex;
@@ -155,111 +262,3 @@ section.produtos {
     background-color: #d4af37; /* Dourado */
 }
 
-/* MENU HAMBURGER */
-.hamburger{
-    border: none;
-    cursor: pointer;
-    display: none;
-    background: none;
-    border-top: 3px solid #fff;
-}
-
-.hamburger::before,
-.hamburger::after{
-    content: ' ';
-    display: block;
-    width: 30px;
-    height: 4px;
-    background-color: #fff;
-    margin-top: 5px;
-    position: relative;
-    transition: 0.3s;
-}
-
-@media (max-width:768px) {
-    .hamburger{
-        z-index: 1;
-        display: block;
-    }
-    .nav-list{
-        position: absolute;
-        top: 0;
-        left: 0px;
-        width: 100vw;
-        height: 100vh;
-        padding: 80px 20px;
-        background-color: #032263;
-        clip-path: circle(100px at 90% -15%);
-        transition: 1s ease-out;
-
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        gap: 0;
-        pointer-events: none;
-        list-style: none;
-    }
-    
-    .nav.active .nav-list{
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
-    }
-
-    nav{
-        display: none;
-    }
-
-    .nav-list a{
-        color: #FFFFFF;
-        font-size: 20px;
-        opacity: 0;
-    }
-
-    .nav-list li:nth-child(1) a{
-        transition: 0.5s 0.2s;
-    }
-
-    .nav-list li:nth-child(2) a{
-        transition: 0.5s 0.4s;
-    }
-
-    .nav-list li:nth-child(3) a{
-        transition: 0.5s 0.6s;
-    }
-
-    .nav-list li:nth-child(4) a{
-        transition: 0.5s 0.8s;
-    }
-
-    /* Estilos ativos */
-    .nav.active .nav-list{
-        clip-path: circle(1500px at 90% -15%);
-        pointer-events: all;
-        
-    }
-
-    .nav.active .nav-list a{
-        opacity: 1;
-    }
-    
-    .nav.active .hamburger{
-        position: fixed;
-        top: 22px;
-        left: 20px;
-        border-top-color: transparent;
-
-    }
-
-    .nav.active .hamburger::before{
-        transform: rotate(45deg);
-        background-color: #FFFFFF;
-    }
-
-    .nav.active .hamburger::after{
-        transform: rotate(-45deg);
-        background-color: #FFFFFF;
-        top: -10px;
-    }
-    
-    
-}
