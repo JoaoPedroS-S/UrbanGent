@@ -56,6 +56,7 @@ div.nav-bar > ul {
 
 /* IMG SAUVAGE */
 div.principal img {
+    width: 100%;
     max-width: 100%;
     height: auto;
 }
