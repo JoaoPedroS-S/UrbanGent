@@ -7,6 +7,7 @@
 - João Pedro da Silva Santos
 - Paulo Vitor de Souza
 - Leonardo Vieira de Souza
+- Isac Novais Gouveia
 
 ## 3. Objetivo do Projeto
 Criar um site que divulgue perfumes. O site visa ajudar os usuários a encontrar os melhores perfumes para suas necessidades, oferecendo análises, comparações e recomendações baseadas em dados confiáveis.
