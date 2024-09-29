@@ -29,7 +29,7 @@ div.logo {
 }
 
 /* MENU */
-div.nav-list > ul {
+.nav-list {
     display: flex;
     flex-flow: row wrap;
     justify-content: space-around;
@@ -37,11 +37,11 @@ div.nav-list > ul {
     gap: 30px;
 }
 
-div.nav-list > ul > li > a {
+.nav-list > li > a {
     text-decoration: none;
 }
 
-div.nav-list a:hover {
+.nav-list a:hover {
     text-decoration: underline;
 }
 
