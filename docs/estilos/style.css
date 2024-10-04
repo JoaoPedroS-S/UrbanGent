@@ -81,6 +81,7 @@ div.principal img {
     width: 100%;
     max-width: 100%;
     height: auto;
+    margin-bottom: 50px;
 }
 
 /* CARDS OPÇOES - FEMININO E MASCULINO  */
@@ -149,6 +150,7 @@ section.produtos {
 .card-opcoes img {
     width: 100%;
     height: auto;
+    overflow: hidden;
 }
 
 .card-opcoes h2, p {
@@ -180,9 +182,17 @@ section.produtos {
 
 .texto-ofertas{
     position: absolute;
-    padding: 100px 200px;
+    padding-left: 300px;
+    padding-top: 100px;
     font-size: 40px;
-    color: black;
+    overflow: hidden;
+}
+
+.ofertas-exc {
+    position: absolute;
+    padding-left: 150px;
+    padding-top: 50px;
+    font-size: 40px;
     overflow: hidden;
 }
 
