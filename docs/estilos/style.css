@@ -11,10 +11,6 @@
     color: white;
 }
 
-a{
-    text-decoration: none;
-}
-
 /* TOPO */
 header {
     padding: 10px;
@@ -37,7 +33,7 @@ div.logo {
     gap: 30px;
 }
 
-.nav-list > li > a {
+.nav-list a {
     text-decoration: none;
 }
 
@@ -76,12 +72,16 @@ div.nav-bar > ul {
     gap: 10px;
 }
 
-/* IMG SAUVAGE */
-div.principal img {
+div.nav-bar a span:hover {
+    color: #a5a5a5;
+}
+
+/* IMG GOOD GIRL */
+picture img {
     width: 100%;
     max-width: 100%;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
 }
 
 /* CARDS OPÇOES - FEMININO E MASCULINO  */
@@ -91,27 +91,19 @@ div.principal img {
     margin: 0 auto;
     max-width: 1200px;
  }
-    
-section .card img {
+
+ section .card img {
     margin: 0 auto;
     margin-bottom: 17px;
-    display: block;
+    display: flex;
     max-width: 100%;
     height: auto;
 }
 
 section .card img:hover {
-    transform: translateY(-7px);
+    transform: translateY(-5px);
     transition: .5s;
-    transform-origin: center;
 }
-
-/* H1 DENTRO DAS IMAGENS */
-section .card h1 {
-    z-index: 1;
-    font-size: 2.3rem;
-}
-
 
 /* BANNER VICTORIA SECRET */
 section.banner {
@@ -142,7 +134,6 @@ section.produtos {
 }
 
 .card-opcoes {
-    border: 1px solid black;
     padding: 20px;
     text-align: center;
 }
@@ -176,24 +167,7 @@ section.produtos {
 }
 
 .card-opcoes button:hover {
-    background-color: #d4af37; /* Dourado */
-}
-
-
-.texto-ofertas{
-    position: absolute;
-    padding-left: 300px;
-    padding-top: 100px;
-    font-size: 40px;
-    overflow: hidden;
-}
-
-.ofertas-exc {
-    position: absolute;
-    padding-left: 150px;
-    padding-top: 50px;
-    font-size: 40px;
-    overflow: hidden;
+    background-color: #a5a5a5;
 }
 
 footer{
@@ -259,7 +233,7 @@ footer input[type=submit]{
 }
 
 
-@media (max-width:768px) {
+@media (min-width:768px) {
     .hamburger{
         z-index: 1;
         display: block;

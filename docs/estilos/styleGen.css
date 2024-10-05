@@ -16,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 70px;
 }
 
 header nav ul {
@@ -31,7 +32,7 @@ header nav ul li a {
 }
 
 header nav ul li a span:hover {
-    color: #d4af37; /* Dourado */
+    color: #a5a5a5;
 }
 
 /* Grid de Produtos */
@@ -74,5 +75,5 @@ header nav ul li a span:hover {
 }
 
 .product-card button:hover {
-    background-color: #d4af37; /* Dourado */
+    background-color: #a5a5a5;
 }
