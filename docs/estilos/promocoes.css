@@ -1,0 +1,411 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: linear-gradient(to left, #e5b3da,#9e5bc8);
+    background-attachment: flex;
+    font-size: 1.1rem;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header */
+header {
+    background-image: linear-gradient(to right, #0D1518, #131428);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 70px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+header nav ul li a span:hover {
+    color: #a5a5a5;
+}
+
+/* Grid de Produtos */
+.products-grid {
+	background-image: linear-gradient(to left, #e5b3da,#9e5bc8);
+    background-attachment: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 40px;
+    background-color: #fff;
+}
+
+.product-card {
+	background-color: #ebebeb;
+    border: 3px solid rgba(207,181,59,5);
+    padding: 20px;
+    text-align: center;
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+}
+
+.product-card h2 {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+.product-card p {
+    font-weight: bolder;
+    margin: 10px 0;
+}
+
+.product-card button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.product-card button:hover {
+	
+    background-color: #fff;
+	color: black;
+}
+footer{
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+    padding: 50px 0;
+    margin: 0 auto;
+    row-gap: 0;
+    display: grid;
+    max-width: 100%;
+    column-gap: 5px;
+    background-color: #ffffffc0;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
+    line-height: 30px;
+    overflow: hidden;
+}
+
+footer li{
+    color: #000;
+    list-style: none;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+footer h2{
+    color: #000;
+}
+
+footer p{
+    color: #000;
+    text-align: left;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.f-details{grid-area: 1 / 1 / 2 / 2; margin-left: 30%;}
+.f-links{grid-area: 1 / 2 / 2 / 3;margin-left: 30%;}
+.f-help{grid-area: 1 / 3 / 2 / 4;margin-left: 30%;}
+.f-newsletter{grid-area: 1 / 4 / 2 / 6;text-align: left;text-align:center; margin-left: 20%;}
+
+div .f-newsletter{
+	text-align:center;
+}
+footer input[type=email]{
+    color: #000;
+    width: 100%;
+    height: 36px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+footer input[type=submit]{
+    color: #fff;
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    background-color: #131428;
+
+}
+
+div .pg{
+    position: absolute;
+	top:213px;
+	left:40px;
+	background-color: #ff0000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h2 .Pa{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}	
+div h2 .Pb{
+    position: absolute;
+	top:50%; 
+	left:50%;
+	z-index: 1;
+	background-color: #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ div h2 .pc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+	top:213px;
+	left:40px;
+	background-color: #ff0000;
+	color: white;
+	height: 30px;
+	width: 95px;
+}
+div h2 .Pd{
+    position: absolute;
+	top:5px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pe{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pf{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Ph{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div h2 .Pi{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h2 .Pj{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div h2 .Pk{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pl{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pm{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pn{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Po{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pp{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+div h2 .Pq{
+    position: absolute;
+	top:565px;
+	left:0,1px;
+	border: 1px solid #000;
+	color: white;
+	height: 30px;
+	width: 95px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	
+}
+footer{
+	background-color:#191919;
+	color:white;
+}
+footer li{
+    list-style: none;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+footer h2{
+    color: #000;
+}
+
+footer p{
+    color: #000;
+    text-align: left;
+    font-family: "Afacad Flux", sans-serif;
+    font-weight: 500px;
+    font-size: 16px;
+}
+
+.f-details{grid-area: 1 / 1 / 2 / 2; margin-left: 30%;}
+.f-links{grid-area: 1 / 2 / 2 / 3;margin-left: 30%;}
+.f-help{grid-area: 1 / 3 / 2 / 4;margin-left: 30%;}
+.f-newsletter{grid-area: 1 / 4 / 2 / 6;text-align: left; margin-left: 20%;}
+
+footer input[type=email]{
+    width: 100%;
+    height: 36px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #000;
+    margin-bottom: 10px;
+}
+
+footer input[type=submit]{
+    color: #fff;
+    width: 100%;
+    height: 36px;
+    border: none;
+    border-radius: 6px;
+    background-color: #131428;
+
+}
