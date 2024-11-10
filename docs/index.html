@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="imagens/logo-urbangent-grande.jpeg" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
+    <script src="../docs/js/funcoes.js"></script>
     
     <script defer src="js/app.js"></script>
     
@@ -34,8 +35,8 @@
                     <ul>
                         <a href="paginas/pag-login.html"><abbr title="Login/Registro"><span class="material-symbols-outlined">person</span></abbr></a>
                         <a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a>
-                        <a href="#"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a>
-                        <a href="#"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a>
+                        <a href="../docs/paginas/pag-favoritos.html"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a>
+                        <a href="../docs/paginas/pag-carrinho.html"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a>
                     </ul>
                 </div>
             </div>
@@ -74,43 +75,44 @@
                 <img src='imagens/good-girl-blush-elixir.png' alt="Eternity Aromatic">
                 <h2>Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino</h2>
                 <p>R$630,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Adicionar ao Carrinho</button>
+                <button onclick="addToFavorites(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Favoritar</button>
             </div>
             <div class="card-opcoes">
-                <img src='imagens/fakhar-rose-lattafa.png' alt="Ferrari Black">
+                <img src='imagens/fakhar-rose-lattafa.png' alt="fakhar-rose-lattafa">
                 <h2>Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino</h2>
                 <p>R$360,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(17, 'Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino', '../imagens/fakhar-rose-lattafa.png', 360.00)">Adicionar ao Carrinho</button>
+                <button onclick="addToFavorites(17, 'Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino', '../imagens/fakhar-rose-lattafa.png', 360.00)">Favoritar</button>
             </div>
             <div class="card-opcoes">
-                <img src='imagens/moschino-fresh-pink.png' alt="Ferrari Black">
+                <img src='imagens/moschino-fresh-pink.png' alt="moschino-fresh-pink">
                 <h2>Moschino – Fresh Pink Couture – Eau de Toilette – Feminino</h2>
                 <p>R$410,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Adicionar ao Carrinho</button>
+                <button onclick="addToFavorites(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Favoritar</button>
             </div>
             <div class="card-opcoes">
-                <img src='imagens/212-vip-black-i-love-ny.png' alt="Ferrari Black">
+                <img src='imagens/212-vip-black-i-love-ny.png' alt="212-vip-black-i-love-ny">
                 <h2>Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino</h2>
                 <p>R$510,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Favoritar</button>
             </div>
             <div class="card-opcoes">
-                <img src='imagens/bvlgari-man-glacial-1.png' alt="Ferrari Black">
+                <img src='imagens/bvlgari-man-glacial-1.png' alt="bvlgari-man-glacial-1">
                 <h2>Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino</h2>
                 <p>R$590,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Adicionar ao Carrinho</button>
+                <button onclick="addToFavorites(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Favoritar</button>
+                
             </div>
             <div class="card-opcoes">
-                <img src='imagens/wood-essence.png' alt="Ferrari Black">
+                <img src='imagens/wood-essence.png' alt="wood-essence">
                 <h2>Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino</h2>
                 <p>R$670,00</p>
-                <button>Adicionar ao Carrinho</button>
-                <button>Favoritar</button>
+                <button onclick="addToCart(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Adicionar ao Carrinho</button>
+                <button onclick="addToFavorites(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Favoritar</button>
             </div>
         </section>
 
