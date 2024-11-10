@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrinho de Compras</title>
+    <link rel="stylesheet" href="../estilos/style_carrinho.css"> <!-- Seu CSS aqui -->
+</head>
+<body>
+    <header>
+        <h1>Carrinho de Compras</h1>
+        <nav>
+            <ul>
+                <li><a href="../paginas/pag-login.html">Login</a></li>
+                <li><a href="../paginas/pag-favoritos.html">Favoritos</a></li>
+                <li><a href="../index.html">Voltar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="cart-container" class="cart-container">
+        <!-- Os itens do carrinho serão exibidos aqui pela função showCart -->
+    </section>
+
+    <div class="total-price">
+        Total: R$ <span id="total">0.00</span>
+    </div>
+
+    <script src="../js/funcoes.js"></script>s
+    <script>
+        // Chama a função para exibir o carrinho ao carregar a página
+        window.onload = showCart;
+    </script>
+</body>
+</html>

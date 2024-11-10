@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meus Favoritos</title>
+    <link rel="stylesheet" href="..\estilos\style_favoritos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Meus Favoritos</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="..\index.html">Voltar à loja</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Lista de Favoritos -->
+    <section id="favorites-container" class="products-grid">
+        <!-- Os itens favoritos serão carregados aqui via JavaScript -->
+    </section>
+
+    <script src="..\js\funcoes.js"></script>
+    <script>
+        // Chama a função para exibir os favoritos ao carregar a página
+        window.onload = showFavorites;
+    </script>
+</body>
+</html>

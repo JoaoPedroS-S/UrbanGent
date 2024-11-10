@@ -6,6 +6,7 @@
     <title>Loja de Perfumes Masculinos</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="../estilos/styleGen.css">
+    <script src="../js/funcoes.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -17,51 +18,51 @@
             <ul>
                 <li><a href="paginas/pag-login.html"><abbr title="Login/Registro"><span class="material-symbols-outlined">person</span></abbr></a></li>
                 <li><a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a></li>
-                <li><a href="#"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a></li>
-                <li><a href="#"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a></li>
+                <li><a href="../paginas/pag-favoritos.html"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a></li>
+                <li><a href="../paginas/pag-carrinho.html"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a></li>
             </ul>
         </nav>
     </header>
     <!-- Grid de produtos -->
     <section class="products-grid">
         <div class="product-card">
-            <img src="../imagens/wood-essence.png" alt="Perfume 2">
+            <img src="../imagens/wood-essence.png" alt="Perfume 6">
             <h2>Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino</h2>
-            <p>R$670,000</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <p>R$670,00</p>
+            <button onclick="addToCart(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src='../imagens/bvlgari-man-glacial-1.png' alt="Ferrari Black">
             <h2>Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino</h2>
             <p>R$590,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/212-vip-black-i-love-ny.png" alt="Perfume 3">
             <h2>Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino</h2>
             <p>R$ 510,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/acqua_di_gio_pour_homme.webp" alt="Perfume 4">
             <h2>Perfume Giorgio Armani Acqua di Giò</h2>
             <p>R$ 687,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(9, 'Perfume Giorgio Armani Acqua di Giò', '../imagens/acqua_di_gio_pour_homme.webp', 687.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(9, 'Perfume Giorgio Armani Acqua di Giò', '../imagens/acqua_di_gio_pour_homme.webp', 687.00)">Favoritar</button>
         </div>
         
         <div class="product-card">
             <img src="../imagens/fakhar-lattafa-masculino.png" alt="Perfume 5">
             <h2>Lattafa – Fakhar Lattafa For Men – Eau de Parfum – Masculino</h2>
             <p>R$360,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(10, 'Lattafa – Fakhar Lattafa For Men – Eau de Parfum – Masculino', '../imagens/fakhar-lattafa-masculino.png', 360.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(10, 'Lattafa – Fakhar Lattafa For Men – Eau de Parfum – Masculino', '../imagens/fakhar-lattafa-masculino.png', 360.00)">Favoritar</button>
         </div>
         <!-- Adicione mais produtos conforme necessário -->
     </section>

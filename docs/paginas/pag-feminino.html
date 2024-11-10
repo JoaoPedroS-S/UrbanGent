@@ -6,6 +6,7 @@
     <title>Loja de Perfumes Masculinos</title>
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet"/>
     <link rel="stylesheet" href="../estilos/styleGen.css">
+    <script src="../js/funcoes.js"></script>
 </head>
 <body>
     <!-- Header -->
@@ -17,8 +18,8 @@
             <ul>
                 <li><a href="paginas/pag-login.html"><abbr title="Login/Registro"><span class="material-symbols-outlined">person</span></abbr></a></li>
                 <li><a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a></li>
-                <li><a href="#"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a></li>
-                <li><a href="#"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a></li>
+                <li><a href="../paginas/pag-favoritos.html"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a></li>
+                <li><a href="../paginas/pag-carrinho.html"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a></li>
             </ul>
         </nav>
     </header>
@@ -28,42 +29,42 @@
             <img src='../imagens/eternity-aromatic-essence-1.png' alt="Good-Girl">
             <h2>Calvin Klein – Eternity Aromatic Essence – Eau de Parfum Intense – Feminino</h2>
             <p>R$490,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(1, 'Calvin Klein – Eternity Aromatic Essence – Eau de Parfum Intense – Feminino', '../imagens/eternity-aromatic-essence-1.png', 490.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(1, 'Calvin Klein – Eternity Aromatic Essence – Eau de Parfum Intense – Feminino', '../imagens/eternity-aromatic-essence-1.png', 490.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/good-girl-blush-elixir.png" alt="Perfume 4">
             <h2>Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino</h2>
-            <p>R$ 630,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <p>R$630,00</p>
+            <button onclick="addToCart(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/gucci-flora-gorgeous-jasmine.png" alt="Perfume 5">
             <h2>Gucci – Gucci Flora Gorgeous Jasmine – Eau de Parfum – Feminino</h2>
-            <p>R$ 810,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <p>R$810,00</p>
+            <button onclick="addToCart(3, 'Gucci – Gucci Flora Gorgeous Jasmine – Eau de Parfum – Feminino', '../imagens/gucci-flora-gorgeous-jasmine.png', 810.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(3, 'Gucci – Gucci Flora Gorgeous Jasmine – Eau de Parfum – Feminino', '../imagens/gucci-flora-gorgeous-jasmine.png', 810.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/burberry-goddess.png" alt="Perfume 6">
             <h2>Burberry Goddess - Eau de Parfum - Feminino</h2>
-            <p>R$ 719,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <p>R$719,00</p>
+            <button onclick="addToCart(4, 'Burberry Goddess - Eau de Parfum - Feminino', '../imagens/burberry-goddess.png', 719.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(4, 'Burberry Goddess - Eau de Parfum - Feminino', '../imagens/burberry-goddess.png', 719.00)">Favoritar</button>
         </div>
 
         <div class="product-card">
             <img src="../imagens/moschino-fresh-pink.png" alt="Perfume 3">
             <h2>Moschino – Fresh Pink Couture – Eau de Toilette – Feminino</h2>
             <p>R$410,00</p>
-            <button>Adicionar ao Carrinho</button>
-            <button>Favoritar</button>
+            <button onclick="addToCart(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Favoritar</button>
         </div>
     <!-- Adicione mais produtos conforme necessário -->
-</section>
+    </section>
 </body>
 </html>
