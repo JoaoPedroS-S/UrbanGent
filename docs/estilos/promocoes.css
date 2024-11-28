@@ -159,18 +159,13 @@ div .pg{
     justify-content: center;
     align-items: center;
 }
-div h2 .Pa{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}	
+.btn-promo {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
+}
 div h2 .Pb{
     position: absolute;
 	top:50%; 
