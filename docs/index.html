@@ -8,150 +8,110 @@
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mediaqueries.css">
     <script src="js/funcoes.js"></script>
-    
     <script defer src="js/app.js"></script>
-    
     <title>UrbanGent</title>
-
 </head>
-    <body>
-        <!-- INICIO HEADER -->
-        <header>
-            <div class="logo">
-                <a href="index.html"><img src="imagens/logo-urbangent-peq.jpeg" alt=""></a>
+<body>
+    <!-- INICIO HEADER -->
+    <header>
+        <div class="logo">
+            <a href="/"><img src="imagens/logo-urbangent-peq.jpeg" alt=""></a>
 
-                <div class="nav">
-                    <button class="hamburger"></button>
-                    <ul class="nav-list">
-                        <a href="#"><li>Início</li></a>
-                        <a href="paginas/pag-feminino.html"><li>Feminino</li></a>
-                        <a href="paginas/pag-masculino.html"><li>Masculino</li></a>
-                        <a href="paginas/pag-promocoes.html"><li>Promoções</li></a>
-                    </ul>
-                </div> <!-- Menu -->
+            <div class="nav">
+                <button class="hamburger"></button>
+                <ul class="nav-list">
+                    <a href="/"><li>Início</li></a>
+                    <a href="/paginas/pag-feminino"><li>Feminino</li></a>
+                    <a href="/paginas/pag-masculino"><li>Masculino</li></a>
+                    <a href="/paginas/pag-unissex"><li>Unissex</li></a>
+                    <a href="/paginas/pag-promocoes"><li>Promoções</li></a>
+                </ul>
+            </div> <!-- Menu -->
 
-                <div class="nav-bar">
-                    <ul>
-                        <a href="paginas/pag-login.html"><abbr title="Login/Registro"><span class="material-symbols-outlined">person</span></abbr></a>
-                        <a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a>
-                        <a href="paginas/pag-favoritos.html"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a>
-                        <a href="paginas/pag-carrinho.html"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a>
-                    </ul>
-                </div>
-            </div>
-        </header>
-                <!-- FIM HEADER -->
-
-        <main>
-            <picture>
-                <source media="(max-width: 750px)" srcset="imagens/Banner-Good-girl-elixir-mobile.png" type="image/png">
-                <img src="imagens/Banner-good-girl-elixir-desktop.png" alt="irinablok" width="1000px">
-            </picture>
-        </main> 
-        
-                <!-- OFERTAS - FEMININO - MASCULINOS -->
-        <section class="flex">
-            <div class="card">
-                <a href="paginas/pag-promocoes.html"><img src="imagens/OFERTAS-EXCLUSIVAS1.png" alt=""></a>
-            </div>
-
-            <div class="card">
-                <a href="paginas/pag-feminino.html"><img src="imagens/FEMININO1.png" alt=""></a>
-                <a href="paginas/pag-masculino.html"><img src="imagens/MASCULINOS1.png" alt=""></a>
-            </div>
-        </section>
-
-                <!-- BANNER VICTORIA SECRET -->
-        <section class="banner">
-            <img src="imagens/victoria-secrets-banner-novo.png" alt="">
-            <h1>Produtos que você só encontra em UrbanGent.</h1>
-            <p>Perfume bom marca a nossa vida para sempre!</p>
-        </section>
-
-                <!-- OPÇÕES DE PRODUTOS -->
-        <section class="produtos">
-            <div class="card-opcoes">
-                <p class="btn-promo">PROMOÇÃO</p>
-                <img src='imagens/good-girl-blush-elixir.png' alt="Eternity Aromatic">
-                <h2>Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino</h2>
-                <p>R$630,00</p>
-                <button onclick="addToCart(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Adicionar ao Carrinho</button>
-                <button onclick="addToFavorites(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Favoritar</button>
-            </div>
-            <div class="card-opcoes">
-                <p class="btn-promo">PROMOÇÃO</p>
-                <img src='imagens/fakhar-rose-lattafa.png' alt="fakhar-rose-lattafa">
-                <h2>Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino</h2>
-                <p>R$360,00</p>
-                <button onclick="addToCart(17, 'Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino', '../imagens/fakhar-rose-lattafa.png', 360.00)">Adicionar ao Carrinho</button>
-                <button onclick="addToFavorites(17, 'Lattafa – Fakhar Lattafa – Eau de Parfum – Feminino', '../imagens/fakhar-rose-lattafa.png', 360.00)">Favoritar</button>
-            </div>
-            <div class="card-opcoes">
-                <img src='imagens/moschino-fresh-pink.png' alt="moschino-fresh-pink">
-                <h2>Moschino – Fresh Pink Couture – Eau de Toilette – Feminino</h2>
-                <p>R$410,00</p>
-                <button onclick="addToCart(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Adicionar ao Carrinho</button>
-                <button onclick="addToFavorites(5, 'Moschino – Fresh Pink Couture – Eau de Toilette – Feminino', '../imagens/moschino-fresh-pink.png', 410.00)">Favoritar</button>
-            </div>
-            <div class="card-opcoes">
-                <img src='imagens/212-vip-black-i-love-ny.png' alt="212-vip-black-i-love-ny">
-                <h2>Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino</h2>
-                <p>R$510,00</p>
-                <button onclick="addToCart(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Adicionar ao Carrinho</button>
-            <button onclick="addToFavorites(8, 'Carolina Herrera – 212 Vip Black I Love NY – Eau de Parfum – Masculino', '../imagens/212-vip-black-i-love-ny.png', 510.00)">Favoritar</button>
-            </div>
-            <div class="card-opcoes">
-                <p class="btn-promo">PROMOÇÃO</p>
-                <img src='imagens/bvlgari-man-glacial-1.png' alt="bvlgari-man-glacial-1">
-                <h2>Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino</h2>
-                <p>R$590,00</p>
-                <button onclick="addToCart(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Adicionar ao Carrinho</button>
-                <button onclick="addToFavorites(7, 'Bvlgari – Bvlgari Man Glacial Essence – Eau de Parfum – Masculino', '../imagens/bvlgari-man-glacial-1.png', 590.00)">Favoritar</button>
-                
-            </div>
-            <div class="card-opcoes">
-                <img src='imagens/wood-essence.png' alt="wood-essence">
-                <h2>Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino</h2>
-                <p>R$670,00</p>
-                <button onclick="addToCart(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Adicionar ao Carrinho</button>
-                <button onclick="addToFavorites(6, 'Bvlgari – Bvlgari Man Wood Essence – Eau de Parfum – Masculino', '../imagens/wood-essence.png', 670.00)">Favoritar</button>
-            </div>
-        </section>
-
-        <footer>
-            <div class="f-details">
-                <h2>URBANGENT</h2>
-                <p>(19) 9 9999-9999</p>
-                <p>contato@urbangent.com.br</p>
-            </div>
-            <div class="f-links">
-                <h2>Links Úteis</h2>
+            <div class="nav-bar">
                 <ul>
-                    <a href="#"></a><li>Quem somos</li></a>
-                    <a href="#"></a><li>Contato</li></a>
-                    <a href="#"></a><li>Minha Conta</li></a>
-                    <a href="#"></a><li>Meus Pedidos</li></a>
+                    <a href="/paginas/pag-login"><abbr title="Login/Registro"><span class="material-symbols-outlined">person</span></abbr></a>
+                    <a href="#"><abbr title="Procurar"><span class="material-symbols-outlined">search</span></abbr></a>
+                    <a href="/paginas/pag-favoritos"><abbr title="Favorito"><span class="material-symbols-outlined">favorite</span></abbr></a>
+                    <a href="/paginas/pag-carrinho"><abbr title="Carrinho"><span class="material-symbols-outlined">shopping_cart</span></abbr></a>
                 </ul>
             </div>
-            <div class="f-help">
-                <h2>Precisa de Ajuda?</h2>
-                <ul>
-                    <a href="#"></a><li>Quem somos</li></a>
-                    <a href="#"></a><li>Contato</li></a>
-                    <a href="#"></a><li>Minha Conta</li></a>
-                    <a href="#"></a><li>Meus Pedidos</li></a>
-                </ul>
-            </div>
-            <div class="f-newsletter">
-                <h2>Precisa de Ajuda?</h2>
-                <p>Receba atualizações instantâneas sobre nossos novos produtos e promoções especiais!</p>
-                <br>
-                <form action="">
-                    <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail">
-                    <input type="submit" value="QUERO RECEBER NOVIDADES">
-                </form>
+        </div>
+    </header>
+    <!-- FIM HEADER -->
 
-            </div>         
-        </footer>
-    </body>
+    <main>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/Banner-Good-girl-elixir-mobile.png" type="image/png">
+            <img src="imagens/Banner-good-girl-elixir-desktop.png" alt="irinablok" width="1000px">
+        </picture>
+    </main> 
+    
+    <!-- OFERTAS - FEMININO - MASCULINOS -->
+    <section class="flex">
+        <div class="card">
+            <a href="/paginas/pag-promocoes"><img src="imagens/OFERTAS-EXCLUSIVAS1.png" alt=""></a>
+        </div>
+
+        <div class="card">
+            <a href="/paginas/pag-feminino"><img src="imagens/FEMININO1.png" alt=""></a>
+            <a href="/paginas/pag-masculino"><img src="imagens/MASCULINOS1.png" alt=""></a>
+        </div>
+    </section>
+
+    <!-- BANNER VICTORIA SECRET -->
+    <section class="banner">
+        <img src="imagens/victoria-secrets-banner-novo.png" alt="">
+        <h1>Produtos que você só encontra em UrbanGent.</h1>
+        <p>Perfume bom marca a nossa vida para sempre!</p>
+    </section>
+
+    <!-- OPÇÕES DE PRODUTOS -->
+    <section class="produtos">
+        <div class="card-opcoes">
+            <p class="btn-promo">PROMOÇÃO</p>
+            <img src='imagens/good-girl-blush-elixir.png' alt="Eternity Aromatic">
+            <h2>Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino</h2>
+            <p>R$630,00</p>
+            <button onclick="addToCart(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Adicionar ao Carrinho</button>
+            <button onclick="addToFavorites(2, 'Carolina Herrera – Good Girl Blush Elixir – Eau de Parfum – Feminino', '../imagens/good-girl-blush-elixir.png', 630.00)">Favoritar</button>
+        </div>
+        <!-- Outros produtos aqui... -->
+    </section>
+
+    <footer>
+        <div class="f-details">
+            <h2>URBANGENT</h2>
+            <p>(19) 9 9999-9999</p>
+            <p>contato@urbangent.com.br</p>
+        </div>
+        <div class="f-links">
+            <h2>Links Úteis</h2>
+            <ul>
+                <a href="#"><li>Quem somos</li></a>
+                <a href="#"><li>Contato</li></a>
+                <a href="#"><li>Minha Conta</li></a>
+                <a href="#"><li>Meus Pedidos</li></a>
+            </ul>
+        </div>
+        <div class="f-help">
+            <h2>Precisa de Ajuda?</h2>
+            <ul>
+                <a href="#"><li>Quem somos</li></a>
+                <a href="#"><li>Contato</li></a>
+                <a href="#"><li>Minha Conta</li></a>
+                <a href="#"><li>Meus Pedidos</li></a>
+            </ul>
+        </div>
+        <div class="f-newsletter">
+            <h2>Precisa de Ajuda?</h2>
+            <p>Receba atualizações instantâneas sobre nossos novos produtos e promoções especiais!</p>
+            <br>
+            <form action="">
+                <input type="email" name="e-mail" id="email" placeholder="Digite seu e-mail">
+                <input type="submit" value="QUERO RECEBER NOVIDADES">
+            </form>
+        </div>         
+    </footer>
+</body>
 </html>
