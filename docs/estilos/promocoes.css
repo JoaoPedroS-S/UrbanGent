@@ -158,7 +158,7 @@ footer input[type=submit]{
     justify-content: center;
     align-items: center;
 }
-.btn-promo1 {
+p .btn-promo1 {
     background-color: #ac1b1b;
     color: #fff !important;
     padding: 4rem;
