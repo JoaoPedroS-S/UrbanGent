@@ -147,12 +147,28 @@ footer input[type=submit]{
 
 }
 
+div .pg{
+    position: absolute;
+    top:213px;
+    left:40px;
+    background-color: #ff0000;
+    color: white;
+    height: 30px;
+    width: 95px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .btn-promo {
     background-color: #ac1b1b;
     color: #fff !important;
     padding: 4rem;
     width: 8rem;
     border-radius: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 div h2 .Pb{
     position: absolute;
