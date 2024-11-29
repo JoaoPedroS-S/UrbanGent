@@ -162,7 +162,7 @@ div .pg{
 }
 p.btn-promoA {
     background-color: #ac1b1b;
-    color: #fff !important;
+    color: red !important;
     padding: .4rem;
     width: 8rem;
     border-radius: 6px;
