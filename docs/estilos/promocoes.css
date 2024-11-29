@@ -146,7 +146,7 @@ footer input[type=submit]{
     background-color: #131428;
 
 }
- div .product-card {
+.product-card {
     position: absolute;
     top:213px;
     left:40px;
@@ -158,7 +158,7 @@ footer input[type=submit]{
     justify-content: center;
     align-items: center;
 }
-p .btn-promo1 {
+.btn-promo1 {
     background-color: #ac1b1b;
     color: #fff !important;
     padding: .4rem;
