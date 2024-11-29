@@ -146,7 +146,7 @@ footer input[type=submit]{
     background-color: #131428;
 
 }
- .product-card {
+ div .product-card {
     position: absolute;
     top:213px;
     left:40px;
