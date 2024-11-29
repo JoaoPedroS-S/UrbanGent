@@ -167,198 +167,78 @@ p.btn-promoA {
     width: 8rem;
     border-radius: 6px;
 }
-div h2 .Pb{
-    position: absolute;
-	top:50%; 
-	left:50%;
-	z-index: 1;
-	background-color: #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+
+p.btn-promoB{
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
- div h2 .pc{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-	top:213px;
-	left:40px;
-	background-color: #ff0000;
-	color: white;
-	height: 30px;
-	width: 95px;
+p.btn-promoC {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
-div h2 .Pd{
-    position: absolute;
-	top:5px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
+p.btn-promoD {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
-div h2 .Pe{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
+p.btn-promoE {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
-div h2 .Pf{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
+p.btn-promoF {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
-div h2 .Ph{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
+p.btn-promoG{
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
+}
+p.btn-promoH {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
+}
+p.btn-promoI {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
+}
+p.btn-promoJ{
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
+}
+p.btn-promoK {
+    background-color: #ac1b1b;
+    color: #fff !important;
+    padding: .4rem;
+    width: 8rem;
+    border-radius: 6px;
 }
 
-div h2 .Pi{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div h2 .Pj{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-}
-div h2 .Pk{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Pl{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Pm{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Pn{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Po{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Pp{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
-div h2 .Pq{
-    position: absolute;
-	top:565px;
-	left:0,1px;
-	border: 1px solid #000;
-	color: white;
-	height: 30px;
-	width: 95px;
-	display: flex;
-    justify-content: center;
-    align-items: center;
-	
-}
 footer{
 	background-color:#191919;
 	color:white;
