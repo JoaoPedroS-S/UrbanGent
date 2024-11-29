@@ -160,13 +160,13 @@ div .pg{
     justify-content: center;
     align-items: center;
 }
-div h2 .Pa{
+.btn-promo {
     background-color: #ac1b1b;
     color: #fff !important;
     padding: .4rem;
     width: 8rem;
     border-radius: 6px;
-}	
+}
 div h2 .Pb{
     position: absolute;
 	top:50%; 
