@@ -125,6 +125,7 @@ footer p{
 .f-newsletter{grid-area: 1 / 4 / 2 / 6;text-align: left;text-align:center; margin-left: 20%;  color: #fff;}
 
 div .f-newsletter{
+	 color: #fff;
 	text-align:center;
 }
 footer input[type=email]{
