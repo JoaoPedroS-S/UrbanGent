@@ -147,7 +147,7 @@ footer input[type=submit]{
 
 }
 
-div p{
+div .product-card {
     position: absolute;
     top:213px;
     left:40px;
@@ -160,7 +160,7 @@ div p{
     align-items: center;
 }
 
-.btn-promo {
+p .btn-promo {
     background-color: #ac1b1b;
     color: #fff !important;
     padding: 4rem;
